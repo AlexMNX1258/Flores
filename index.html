@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Te Quiero Mucho</title>
+    <h1>TE AMO</h1>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: url('img.jpg') no-repeat center center fixed;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            color: white;
+            text-align: center;
+        }
+        h1 {
+    font-size: 48px;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+    text-align: center;
+}
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .photo-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .photo-grid img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 10px;
+            border: 2px solid white;
+        }
+
+        .poem {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .button-container button {
+            padding: 10px 20px;
+            font-size: 18px;
+            color: white;
+            background-color: #FF4081;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .button-container button:hover {
+            background-color: #e91e63;
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay">
+        <div class="photo-grid">
+            <img src="foto1.jpg" alt="Foto 1">
+            <img src="foto2.jpg" alt="Foto 2">
+            <img src="foto3.jpg" alt="Foto 3">
+            <img src="foto4.jpg" alt="Foto 4">
+            <!-- Agrega más imágenes según lo necesites -->
+        </div>
+        
+        <div class="poem">
+            Tus ojos son el cielo,<br>
+            tus labios la pasión,<br>
+            en cada suspiro tuyo,<br>
+            vive mi corazón.
+        </div>
+        
+        <div class="button-container">
+            <button onclick="location.href='flores.html'">Un Pequeño Regalo</button>
+        </div>
+    </div>
+</body>
+</html>
